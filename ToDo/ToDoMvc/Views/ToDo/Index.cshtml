@@ -1,0 +1,42 @@
+@model ToDoMvc.Models.View.ToDoViewModel
+
+@{
+    ViewData["Title"] = "Manage your todo list";
+}
+
+<div class="panel panle-default todo-panel">
+    <div class="panel-heading">@ViewData["Title"]</div>
+    <table class="table table-hover">
+        <thead>
+            <tr>
+                <th></th>
+                <th>Item</th>
+                <th>Due</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.Items)
+            {
+                <tr>
+                    <td>
+                        <input  type="checkbox"
+                                name="@item.Id"
+                                value="true"
+                                class="done-checkbox"
+                        />
+                    </td>
+                    <td>@item.Title</td>
+                    <td>@item.DueAt</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    <div class="panel-footer add-item-form">
+        <form>
+            <div id="add-item-error" class="text-danger"></div>
+            <label for="add-item-title">Add a new item: </label>
+            <input id="add-item-title"/>
+            <button type="button" id="add-item-button">Add</button>
+        </form>
+    </div>
+</div>

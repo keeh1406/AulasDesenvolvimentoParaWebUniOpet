@@ -1,0 +1,24 @@
+/mnt/c/Users/bruno/Documents/dev_web/ToDo/ToDoMvc/bin/Debug/netcoreapp2.0/app.db
+/mnt/c/Users/bruno/Documents/dev_web/ToDo/ToDoMvc/bin/Debug/netcoreapp2.0/ToDoMvc.deps.json
+/mnt/c/Users/bruno/Documents/dev_web/ToDo/ToDoMvc/bin/Debug/netcoreapp2.0/ToDoMvc.runtimeconfig.json
+/mnt/c/Users/bruno/Documents/dev_web/ToDo/ToDoMvc/bin/Debug/netcoreapp2.0/ToDoMvc.runtimeconfig.dev.json
+/mnt/c/Users/bruno/Documents/dev_web/ToDo/ToDoMvc/bin/Debug/netcoreapp2.0/ToDoMvc.dll
+/mnt/c/Users/bruno/Documents/dev_web/ToDo/ToDoMvc/bin/Debug/netcoreapp2.0/ToDoMvc.pdb
+/mnt/c/Users/bruno/Documents/dev_web/ToDo/ToDoMvc/obj/Debug/netcoreapp2.0/ToDoMvc.csproj.CoreCompileInputs.cache
+/mnt/c/Users/bruno/Documents/dev_web/ToDo/ToDoMvc/obj/Debug/netcoreapp2.0/UserSecretsAssemblyInfo.cs
+/mnt/c/Users/bruno/Documents/dev_web/ToDo/ToDoMvc/obj/Debug/netcoreapp2.0/ToDoMvc.AssemblyInfoInputs.cache
+/mnt/c/Users/bruno/Documents/dev_web/ToDo/ToDoMvc/obj/Debug/netcoreapp2.0/ToDoMvc.AssemblyInfo.cs
+/mnt/c/Users/bruno/Documents/dev_web/ToDo/ToDoMvc/obj/Debug/netcoreapp2.0/ToDoMvc.dll
+/mnt/c/Users/bruno/Documents/dev_web/ToDo/ToDoMvc/obj/Debug/netcoreapp2.0/ToDoMvc.pdb
+C:\Users\Katia Magareth\Desktop\ToDo\ToDoMvc\bin\Debug\netcoreapp2.0\app.db
+C:\Users\Katia Magareth\Desktop\ToDo\ToDoMvc\bin\Debug\netcoreapp2.0\ToDoMvc.deps.json
+C:\Users\Katia Magareth\Desktop\ToDo\ToDoMvc\bin\Debug\netcoreapp2.0\ToDoMvc.runtimeconfig.json
+C:\Users\Katia Magareth\Desktop\ToDo\ToDoMvc\bin\Debug\netcoreapp2.0\ToDoMvc.runtimeconfig.dev.json
+C:\Users\Katia Magareth\Desktop\ToDo\ToDoMvc\bin\Debug\netcoreapp2.0\ToDoMvc.dll
+C:\Users\Katia Magareth\Desktop\ToDo\ToDoMvc\bin\Debug\netcoreapp2.0\ToDoMvc.pdb
+C:\Users\Katia Magareth\Desktop\ToDo\ToDoMvc\obj\Debug\netcoreapp2.0\ToDoMvc.csproj.CoreCompileInputs.cache
+C:\Users\Katia Magareth\Desktop\ToDo\ToDoMvc\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\Katia Magareth\Desktop\ToDo\ToDoMvc\obj\Debug\netcoreapp2.0\ToDoMvc.AssemblyInfoInputs.cache
+C:\Users\Katia Magareth\Desktop\ToDo\ToDoMvc\obj\Debug\netcoreapp2.0\ToDoMvc.AssemblyInfo.cs
+C:\Users\Katia Magareth\Desktop\ToDo\ToDoMvc\obj\Debug\netcoreapp2.0\ToDoMvc.dll
+C:\Users\Katia Magareth\Desktop\ToDo\ToDoMvc\obj\Debug\netcoreapp2.0\ToDoMvc.pdb
