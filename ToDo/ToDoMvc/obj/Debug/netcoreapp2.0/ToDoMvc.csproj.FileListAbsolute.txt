@@ -22,3 +22,15 @@ C:\Users\Katia Magareth\Desktop\ToDo\ToDoMvc\obj\Debug\netcoreapp2.0\ToDoMvc.Ass
 C:\Users\Katia Magareth\Desktop\ToDo\ToDoMvc\obj\Debug\netcoreapp2.0\ToDoMvc.AssemblyInfo.cs
 C:\Users\Katia Magareth\Desktop\ToDo\ToDoMvc\obj\Debug\netcoreapp2.0\ToDoMvc.dll
 C:\Users\Katia Magareth\Desktop\ToDo\ToDoMvc\obj\Debug\netcoreapp2.0\ToDoMvc.pdb
+C:\Users\opet\Desktop\ToDo\ToDoMvc\obj\Debug\netcoreapp2.0\ToDoMvc.csproj.CoreCompileInputs.cache
+C:\Users\opet\Desktop\ToDo\ToDoMvc\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\opet\Desktop\ToDo\ToDoMvc\obj\Debug\netcoreapp2.0\ToDoMvc.AssemblyInfoInputs.cache
+C:\Users\opet\Desktop\ToDo\ToDoMvc\obj\Debug\netcoreapp2.0\ToDoMvc.AssemblyInfo.cs
+C:\Users\opet\Desktop\ToDo\ToDoMvc\obj\Debug\netcoreapp2.0\ToDoMvc.dll
+C:\Users\opet\Desktop\ToDo\ToDoMvc\obj\Debug\netcoreapp2.0\ToDoMvc.pdb
+C:\Users\opet\Desktop\ToDo\ToDoMvc\bin\Debug\netcoreapp2.0\app.db
+C:\Users\opet\Desktop\ToDo\ToDoMvc\bin\Debug\netcoreapp2.0\ToDoMvc.deps.json
+C:\Users\opet\Desktop\ToDo\ToDoMvc\bin\Debug\netcoreapp2.0\ToDoMvc.runtimeconfig.json
+C:\Users\opet\Desktop\ToDo\ToDoMvc\bin\Debug\netcoreapp2.0\ToDoMvc.runtimeconfig.dev.json
+C:\Users\opet\Desktop\ToDo\ToDoMvc\bin\Debug\netcoreapp2.0\ToDoMvc.dll
+C:\Users\opet\Desktop\ToDo\ToDoMvc\bin\Debug\netcoreapp2.0\ToDoMvc.pdb
