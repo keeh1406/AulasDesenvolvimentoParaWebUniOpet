@@ -35,16 +35,12 @@ namespace ToDoMvc.Controllers
         public async Task<IActionResult> AddItem(NewToDoItem newToDoItem)
         {
             if (!ModelState.IsValid)
-            {
                 return BadRequest(ModelState);
-            }
 
             var successful = await _todoItemsService.AddItemAsync(newToDoItem);
 
             if (!successful)
-            {
                 return BadRequest(new { Error = "Could not add item" });
-            }
 
             return Ok();
         }

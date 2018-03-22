@@ -11,8 +11,13 @@ $(document).ready(function () {
 function addItems() {
     $('#add-item-error').hide();
     var newTitle = $('#add-item-title').val();
+    var newDueAt = $('#add-item-dueat').val();
 
-    var data = { title: newTitle };
+    var data = {
+        title: newTitle,
+        dueAt: newDueAt
+    };
+    
     $.post('ToDo/AddItem', data, function () {
         window.location = '/ToDo';
     }).fail(function (data) {

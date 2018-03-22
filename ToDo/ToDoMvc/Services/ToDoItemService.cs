@@ -20,7 +20,9 @@ namespace ToDoMvc.Services
 
         public async Task<IEnumerable<ToDoItem>> GetIncompleteItemsAsync()
         {
-            var items = await _context.Items.Where(x => x.IsDone == false).ToArrayAsync();
+            var items = await _context.Items
+                .Where(x => x.IsDone == false)
+                .ToArrayAsync();
 
             return items;
         }
@@ -32,7 +34,7 @@ namespace ToDoMvc.Services
                 Id = Guid.NewGuid(),
                 IsDone = false,
                 Title = newToDoItem.Title,
-                DueAt = DateTimeOffset.Now.AddDays(3)
+                DueAt = newToDoItem.DueAt
             };
             _context.Items.Add(entity);
             var saveResult = await _context.SaveChangesAsync();
