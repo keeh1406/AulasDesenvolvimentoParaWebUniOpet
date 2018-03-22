@@ -10,27 +10,29 @@
 /mnt/c/Users/bruno/Documents/dev_web/ToDo/ToDoMvc/obj/Debug/netcoreapp2.0/ToDoMvc.AssemblyInfo.cs
 /mnt/c/Users/bruno/Documents/dev_web/ToDo/ToDoMvc/obj/Debug/netcoreapp2.0/ToDoMvc.dll
 /mnt/c/Users/bruno/Documents/dev_web/ToDo/ToDoMvc/obj/Debug/netcoreapp2.0/ToDoMvc.pdb
-C:\Users\Katia Magareth\Desktop\ToDo\ToDoMvc\bin\Debug\netcoreapp2.0\app.db
-C:\Users\Katia Magareth\Desktop\ToDo\ToDoMvc\bin\Debug\netcoreapp2.0\ToDoMvc.deps.json
-C:\Users\Katia Magareth\Desktop\ToDo\ToDoMvc\bin\Debug\netcoreapp2.0\ToDoMvc.runtimeconfig.json
-C:\Users\Katia Magareth\Desktop\ToDo\ToDoMvc\bin\Debug\netcoreapp2.0\ToDoMvc.runtimeconfig.dev.json
-C:\Users\Katia Magareth\Desktop\ToDo\ToDoMvc\bin\Debug\netcoreapp2.0\ToDoMvc.dll
-C:\Users\Katia Magareth\Desktop\ToDo\ToDoMvc\bin\Debug\netcoreapp2.0\ToDoMvc.pdb
-C:\Users\Katia Magareth\Desktop\ToDo\ToDoMvc\obj\Debug\netcoreapp2.0\ToDoMvc.csproj.CoreCompileInputs.cache
-C:\Users\Katia Magareth\Desktop\ToDo\ToDoMvc\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
-C:\Users\Katia Magareth\Desktop\ToDo\ToDoMvc\obj\Debug\netcoreapp2.0\ToDoMvc.AssemblyInfoInputs.cache
-C:\Users\Katia Magareth\Desktop\ToDo\ToDoMvc\obj\Debug\netcoreapp2.0\ToDoMvc.AssemblyInfo.cs
-C:\Users\Katia Magareth\Desktop\ToDo\ToDoMvc\obj\Debug\netcoreapp2.0\ToDoMvc.dll
-C:\Users\Katia Magareth\Desktop\ToDo\ToDoMvc\obj\Debug\netcoreapp2.0\ToDoMvc.pdb
-C:\Users\opet\Desktop\ToDo\ToDoMvc\obj\Debug\netcoreapp2.0\ToDoMvc.csproj.CoreCompileInputs.cache
-C:\Users\opet\Desktop\ToDo\ToDoMvc\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
-C:\Users\opet\Desktop\ToDo\ToDoMvc\obj\Debug\netcoreapp2.0\ToDoMvc.AssemblyInfoInputs.cache
-C:\Users\opet\Desktop\ToDo\ToDoMvc\obj\Debug\netcoreapp2.0\ToDoMvc.AssemblyInfo.cs
-C:\Users\opet\Desktop\ToDo\ToDoMvc\obj\Debug\netcoreapp2.0\ToDoMvc.dll
-C:\Users\opet\Desktop\ToDo\ToDoMvc\obj\Debug\netcoreapp2.0\ToDoMvc.pdb
-C:\Users\opet\Desktop\ToDo\ToDoMvc\bin\Debug\netcoreapp2.0\app.db
-C:\Users\opet\Desktop\ToDo\ToDoMvc\bin\Debug\netcoreapp2.0\ToDoMvc.deps.json
-C:\Users\opet\Desktop\ToDo\ToDoMvc\bin\Debug\netcoreapp2.0\ToDoMvc.runtimeconfig.json
-C:\Users\opet\Desktop\ToDo\ToDoMvc\bin\Debug\netcoreapp2.0\ToDoMvc.runtimeconfig.dev.json
-C:\Users\opet\Desktop\ToDo\ToDoMvc\bin\Debug\netcoreapp2.0\ToDoMvc.dll
-C:\Users\opet\Desktop\ToDo\ToDoMvc\bin\Debug\netcoreapp2.0\ToDoMvc.pdb
+C:\Users\bruno\Documents\dev_web\ToDo\ToDoMvc\bin\Debug\netcoreapp2.0\app.db
+C:\Users\bruno\Documents\dev_web\ToDo\ToDoMvc\bin\Debug\netcoreapp2.0\ToDoMvc.deps.json
+C:\Users\bruno\Documents\dev_web\ToDo\ToDoMvc\bin\Debug\netcoreapp2.0\ToDoMvc.runtimeconfig.json
+C:\Users\bruno\Documents\dev_web\ToDo\ToDoMvc\bin\Debug\netcoreapp2.0\ToDoMvc.runtimeconfig.dev.json
+C:\Users\bruno\Documents\dev_web\ToDo\ToDoMvc\bin\Debug\netcoreapp2.0\ToDoMvc.dll
+C:\Users\bruno\Documents\dev_web\ToDo\ToDoMvc\bin\Debug\netcoreapp2.0\ToDoMvc.pdb
+C:\Users\bruno\Documents\dev_web\ToDo\ToDoMvc\obj\Debug\netcoreapp2.0\ToDoMvc.csprojResolveAssemblyReference.cache
+C:\Users\bruno\Documents\dev_web\ToDo\ToDoMvc\obj\Debug\netcoreapp2.0\ToDoMvc.csproj.CoreCompileInputs.cache
+C:\Users\bruno\Documents\dev_web\ToDo\ToDoMvc\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\bruno\Documents\dev_web\ToDo\ToDoMvc\obj\Debug\netcoreapp2.0\ToDoMvc.AssemblyInfoInputs.cache
+C:\Users\bruno\Documents\dev_web\ToDo\ToDoMvc\obj\Debug\netcoreapp2.0\ToDoMvc.AssemblyInfo.cs
+C:\Users\bruno\Documents\dev_web\ToDo\ToDoMvc\obj\Debug\netcoreapp2.0\ToDoMvc.dll
+C:\Users\bruno\Documents\dev_web\ToDo\ToDoMvc\obj\Debug\netcoreapp2.0\ToDoMvc.pdb
+c:\Users\opet\Desktop\ToDo\ToDoMvc\bin\Debug\netcoreapp2.0\app.db
+c:\Users\opet\Desktop\ToDo\ToDoMvc\bin\Debug\netcoreapp2.0\ToDoMvc.deps.json
+c:\Users\opet\Desktop\ToDo\ToDoMvc\bin\Debug\netcoreapp2.0\ToDoMvc.runtimeconfig.json
+c:\Users\opet\Desktop\ToDo\ToDoMvc\bin\Debug\netcoreapp2.0\ToDoMvc.runtimeconfig.dev.json
+c:\Users\opet\Desktop\ToDo\ToDoMvc\bin\Debug\netcoreapp2.0\ToDoMvc.dll
+c:\Users\opet\Desktop\ToDo\ToDoMvc\bin\Debug\netcoreapp2.0\ToDoMvc.pdb
+c:\Users\opet\Desktop\ToDo\ToDoMvc\obj\Debug\netcoreapp2.0\ToDoMvc.csprojResolveAssemblyReference.cache
+c:\Users\opet\Desktop\ToDo\ToDoMvc\obj\Debug\netcoreapp2.0\ToDoMvc.csproj.CoreCompileInputs.cache
+c:\Users\opet\Desktop\ToDo\ToDoMvc\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+c:\Users\opet\Desktop\ToDo\ToDoMvc\obj\Debug\netcoreapp2.0\ToDoMvc.AssemblyInfoInputs.cache
+c:\Users\opet\Desktop\ToDo\ToDoMvc\obj\Debug\netcoreapp2.0\ToDoMvc.AssemblyInfo.cs
+c:\Users\opet\Desktop\ToDo\ToDoMvc\obj\Debug\netcoreapp2.0\ToDoMvc.dll
+c:\Users\opet\Desktop\ToDo\ToDoMvc\obj\Debug\netcoreapp2.0\ToDoMvc.pdb

@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using ToDoMvc.Services;
 using ToDoMvc.Models.View;
+using ToDoMvc.Models;
 
 namespace ToDoMvc.Controllers
 {
@@ -13,7 +14,7 @@ namespace ToDoMvc.Controllers
     {
         private readonly ITodoItemService _todoItemsService;
 
-        public  ToDoController(ITodoItemService todoItemsService)
+        public ToDoController(ITodoItemService todoItemsService)
         {
             _todoItemsService = todoItemsService;
         }
@@ -29,6 +30,31 @@ namespace ToDoMvc.Controllers
             };
             //Retornar a view
             return View(viewModel);
+        }
+
+        public async Task<IActionResult> AddItem(NewToDoItem newToDoItem)
+        {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+
+            var successful = await _todoItemsService.AddItemAsync(newToDoItem);
+
+            if (!successful)
+            {
+                return BadRequest(new { Error = "Could not add item" });
+            }
+
+            return Ok();
+        }
+        public async Task<IActionResult> MarkDoneAsync(Guid id)
+        {
+            if (id == Guid.Empty)
+                return BadRequest();
+
+            var successful = await _todoItemsService.MarkDoneAsync(id);
+            return Ok();
         }
     }
 }
