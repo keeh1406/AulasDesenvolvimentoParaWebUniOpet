@@ -10,11 +10,11 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
-using ToDoMvc.Models;
-using ToDoMvc.Models.ManageViewModels;
-using ToDoMvc.Services;
+using TodoMvc.Models;
+using TodoMvc.Models.ManageViewModels;
+using TodoMvc.Services;
 
-namespace ToDoMvc.Controllers
+namespace TodoMvc.Controllers
 {
     [Authorize]
     [Route("[controller]/[action]")]
@@ -495,7 +495,7 @@ namespace ToDoMvc.Controllers
         {
             return string.Format(
                 AuthenicatorUriFormat,
-                _urlEncoder.Encode("ToDoMvc"),
+                _urlEncoder.Encode("TodoMvc"),
                 _urlEncoder.Encode(email),
                 unformattedKey);
         }

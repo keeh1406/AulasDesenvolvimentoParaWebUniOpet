@@ -11,9 +11,10 @@ using TodoMvc.Data;
 namespace TodoMvc.Data.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20180308115857_AddItems")]
+    partial class AddItems
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -184,8 +185,6 @@ namespace TodoMvc.Data.Migrations
                     b.Property<DateTimeOffset?>("DueAt");
 
                     b.Property<bool>("IsDone");
-
-                    b.Property<string>("OwnerId");
 
                     b.Property<string>("Title");
 

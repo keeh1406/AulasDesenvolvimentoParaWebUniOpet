@@ -5,7 +5,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace ToDoMvc.Models.ManageViewModels
+namespace TodoMvc.Models.ManageViewModels
 {
     public class EnableAuthenticatorViewModel
     {

@@ -7,7 +7,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/ToDoMvc/ToDoMvc.csproj"
+                "${workspaceFolder}/TodoMvc/TodoMvc.csproj"
             ],
             "problemMatcher": "$msCompile"
         }

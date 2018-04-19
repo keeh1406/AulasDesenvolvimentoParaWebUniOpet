@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Identity;
 
-namespace ToDoMvc.Models.ManageViewModels
+namespace TodoMvc.Models.ManageViewModels
 {
     public class ExternalLoginsViewModel
     {

@@ -8,11 +8,11 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using ToDoMvc.Data;
-using ToDoMvc.Models;
-using ToDoMvc.Services;
+using TodoMvc.Data;
+using TodoMvc.Models;
+using TodoMvc.Services;
 
-namespace ToDoMvc
+namespace TodoMvc
 {
     public class Startup
     {
@@ -26,15 +26,23 @@ namespace ToDoMvc
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContext<ApplicationDbContext>(options => options.UseSqlite(Configuration.GetConnectionString("DefaultConnection")));
+            var connString = Configuration
+                .GetConnectionString("DefaultConnection");
 
-            services.AddIdentity<ApplicationUser, IdentityRole>()
+            services
+                .AddDbContext<ApplicationDbContext>
+                    (options => options
+                        .UseSqlite(connString));
+
+            services
+                .AddIdentity<ApplicationUser, IdentityRole>()
                 .AddEntityFrameworkStores<ApplicationDbContext>()
                 .AddDefaultTokenProviders();
 
             // Add application services.
             services.AddTransient<IEmailSender, EmailSender>();
 
+            // Dependency Injection of our service
             services.AddScoped<ITodoItemService, ToDoItemService>();
 
             services.AddMvc();

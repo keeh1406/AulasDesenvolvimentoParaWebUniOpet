@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text.Encodings.Web;
 using System.Threading.Tasks;
-using ToDoMvc.Services;
+using TodoMvc.Services;
 
-namespace ToDoMvc.Services
+namespace TodoMvc.Services
 {
     public static class EmailSenderExtensions
     {

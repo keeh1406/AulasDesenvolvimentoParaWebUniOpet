@@ -10,11 +10,11 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
-using ToDoMvc.Models;
-using ToDoMvc.Models.AccountViewModels;
-using ToDoMvc.Services;
+using TodoMvc.Models;
+using TodoMvc.Models.AccountViewModels;
+using TodoMvc.Services;
 
-namespace ToDoMvc.Controllers
+namespace TodoMvc.Controllers
 {
     [Authorize]
     [Route("[controller]/[action]")]

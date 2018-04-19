@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore.Migrations;
 
-namespace ToDoMvc.Data.Migrations
+namespace TodoMvc.Data.Migrations
 {
     public partial class CreateIdentitySchema : Migration
     {

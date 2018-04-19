@@ -1,14 +1,16 @@
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using ToDoMvc.Models;
+using TodoMvc.Models;
 
-namespace ToDoMvc.Services
+namespace TodoMvc.Services
 {
     public interface ITodoItemService
     {
-        Task<IEnumerable<ToDoItem>> GetIncompleteItemsAsync();
-        Task<bool> AddItemAsync(NewToDoItem newToDoItem);
-        Task<bool> MarkDoneAsync(Guid id);
+        Task<IEnumerable<ToDoItem>> GetIncompleteItemsAsync(ApplicationUser currentUser);
+        Task<bool> AddItemAsync(NewToDoItem newToDoItem, ApplicationUser currentUser);
+        Task<bool> MarkDoneAsync(Guid id, ApplicationUser currentUser);
+        Task AddItemAsync(NewToDoItem newToDoItem);
+        Task AddItemAsync(NewToDoItem newToDoItem, object currentUser);
     }
 }

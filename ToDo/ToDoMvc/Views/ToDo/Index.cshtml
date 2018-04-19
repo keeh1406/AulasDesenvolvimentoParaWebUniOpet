@@ -1,10 +1,11 @@
-@model ToDoMvc.Models.View.ToDoViewModel
+@model TodoMvc.Models.View.ToDoViewModel
+@using Humanizer
 
 @{
     ViewData["Title"] = "Manage your todo list";
 }
 
-<div class="panel panle-default todo-panel">
+<div class="panel panel-default todo-panel">
     <div class="panel-heading">@ViewData["Title"]</div>
     <table class="table table-hover">
         <thead>
@@ -15,30 +16,28 @@
             </tr>
         </thead>
         <tbody>
-            @foreach (var item in Model.Items)
-            {
-                <tr>
-                    <td>
-                        <input  type="checkbox"
-                                name="@item.Id"
-                                value="true"
-                                class="done-checkbox"
-                        />
-                    </td>
-                    <td>@item.Title</td>
-                    <td>@item.DueAt</td>
-                </tr>
-            }
+        @foreach (var item in Model.Items)
+        {
+            <tr>
+                <td>
+                    <input type="checkbox"
+                           name="@item.Id"
+                           value="true"
+                           class="done-checkbox" />
+                </td>
+                <td>@item.Title</td>
+                <td>@item.DueAt.Humanize()</td>
+            </tr>
+        }
         </tbody>
     </table>
     <div class="panel-footer add-item-form">
         <form>
             <div id="add-item-error" class="text-danger"></div>
-            <label for="add-item-title">Add a new item: </label>
-            <input id="add-item-title"/>
-            </br>
-            <label for="add-item-dueat">Add a new item: </label>
-            <input id="add-item-dueat" type="date"/>
+            <label for="add-item-title">Add a new item:</label>
+            <input id="add-item-title" />
+            <label for="add-item-due-at">Due At:</label>
+            <input id="add-item-due-at" type="date" />
             <button type="button" id="add-item-button">Add</button>
         </form>
     </div>
