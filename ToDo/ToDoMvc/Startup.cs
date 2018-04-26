@@ -49,12 +49,17 @@ namespace TodoMvc
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IHostingEnvironment env)
+        public void Configure(IApplicationBuilder app, 
+                              IHostingEnvironment env, 
+                              UserManager<ApplicationUser> userManager, 
+                              RoleManager<IdentityRole> roleManager)
         {
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
                 app.UseDatabaseErrorPage();
+                EnsureRoleAsync(roleManager).Wait();
+                EnsureTestAdminAsync(userManager).Wait();
             }
             else
             {
@@ -71,6 +76,17 @@ namespace TodoMvc
                     name: "default",
                     template: "{controller=Home}/{action=Index}/{id?}");
             });
+        }
+
+        private static async Task EnsureRoleAsync(RoleManager<IdentityRole> roleManager)
+        {
+            var alreadyExists = await roleManager.RoleExistsAsync
+                (Constants.AdministratorRole);
+
+            if (alreadyExists)
+                return;
+
+            await roleManager.CreateAsync(new IdentityRole(Constants.AdministratorRole));
         }
     }
 }
