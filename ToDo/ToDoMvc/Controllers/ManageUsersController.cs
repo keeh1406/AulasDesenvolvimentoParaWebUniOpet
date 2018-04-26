@@ -11,7 +11,7 @@ using TodoMvc.Models.View;
 
 namespace TodoMvc.Controllers
 {
-    [Authorize(Roles = "Adminstrator")]
+    [Authorize(Roles = "Administrator")]
     public class ManageUsersController : Controller
     {
         private readonly UserManager<ApplicationUser> _userManager;
