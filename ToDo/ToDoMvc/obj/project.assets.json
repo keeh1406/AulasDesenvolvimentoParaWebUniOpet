@@ -14075,11 +14075,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\opet\\Documents\\GitHub\\Desenvolvimento4Web\\source\\ToDo\\TodoMvc\\TodoMvc.csproj",
+      "projectUniqueName": "C:\\Users\\opet\\Documents\\GitHub\\AulaDesenvolvimentoParaWeb\\ToDo\\TodoMvc\\TodoMvc.csproj",
       "projectName": "TodoMvc",
-      "projectPath": "C:\\Users\\opet\\Documents\\GitHub\\Desenvolvimento4Web\\source\\ToDo\\TodoMvc\\TodoMvc.csproj",
+      "projectPath": "C:\\Users\\opet\\Documents\\GitHub\\AulaDesenvolvimentoParaWeb\\ToDo\\TodoMvc\\TodoMvc.csproj",
       "packagesPath": "C:\\Users\\opet\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\opet\\Documents\\GitHub\\Desenvolvimento4Web\\source\\ToDo\\TodoMvc\\obj\\",
+      "outputPath": "C:\\Users\\opet\\Documents\\GitHub\\AulaDesenvolvimentoParaWeb\\ToDo\\TodoMvc\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
