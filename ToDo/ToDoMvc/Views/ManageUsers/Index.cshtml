@@ -1,0 +1,29 @@
+﻿@model TodoMvc.Models.View.ManageUsersViewModel
+
+@{
+    ViewData["Title"] = "Manage users";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<h3>Administrators</h3>
+
+<table class="table">
+    <thead>
+        <tr>
+            <tr>
+            <th>Id</th>
+            <th">Email</th">
+            </tr>
+    </thead>
+
+    <tbody>
+        @foreach (var user in Model.Administrators)
+        {
+            <tr>
+                <td>@user.Id</td>
+                <td>@user.Email</td>
+            </tr>
+        }
+    </tbody>
+</table>
