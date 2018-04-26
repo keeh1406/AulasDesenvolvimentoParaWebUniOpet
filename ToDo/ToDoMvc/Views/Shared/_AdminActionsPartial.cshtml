@@ -1,0 +1,24 @@
+﻿@using Microsoft.AspNetCore.Identity
+@using TodoMvc.Models
+
+@inject SignInManager<ApplicationUser> SignInManager
+@inject UserManager<ApplicationUser> UserManager
+
+@if (SignInManager.IsSignedIn(User))
+{
+    var currentuser = await UserManager.GetUserAsync(User);
+
+    var isAdmin = currentuser != null && await UserManager.IsInRoleAsync(currentuser, Constants.AdministratorRole);
+
+    if (isAdmin)
+    {
+        <ul class="nav navbar-nav navbar-right">
+            <li>
+                <a asp-controller="ManageUsers"
+                   asp-action="Index">
+                </a>
+            </li>
+        </ul>
+    }
+}
+
