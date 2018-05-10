@@ -1,0 +1,17 @@
+C:\Users\opet\Documents\GitHub\AulasDesenvolvimentoParaWebUniOpet\ToDo\ToDo.UnitTests\bin\Debug\netcoreapp2.0\app.db
+C:\Users\opet\Documents\GitHub\AulasDesenvolvimentoParaWebUniOpet\ToDo\ToDo.UnitTests\bin\Debug\netcoreapp2.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Users\opet\Documents\GitHub\AulasDesenvolvimentoParaWebUniOpet\ToDo\ToDo.UnitTests\bin\Debug\netcoreapp2.0\xunit.runner.reporters.netcoreapp10.dll
+C:\Users\opet\Documents\GitHub\AulasDesenvolvimentoParaWebUniOpet\ToDo\ToDo.UnitTests\bin\Debug\netcoreapp2.0\xunit.runner.utility.netcoreapp10.dll
+C:\Users\opet\Documents\GitHub\AulasDesenvolvimentoParaWebUniOpet\ToDo\ToDo.UnitTests\bin\Debug\netcoreapp2.0\ToDo.UnitTests.deps.json
+C:\Users\opet\Documents\GitHub\AulasDesenvolvimentoParaWebUniOpet\ToDo\ToDo.UnitTests\bin\Debug\netcoreapp2.0\ToDo.UnitTests.runtimeconfig.json
+C:\Users\opet\Documents\GitHub\AulasDesenvolvimentoParaWebUniOpet\ToDo\ToDo.UnitTests\bin\Debug\netcoreapp2.0\ToDo.UnitTests.runtimeconfig.dev.json
+C:\Users\opet\Documents\GitHub\AulasDesenvolvimentoParaWebUniOpet\ToDo\ToDo.UnitTests\bin\Debug\netcoreapp2.0\ToDo.UnitTests.dll
+C:\Users\opet\Documents\GitHub\AulasDesenvolvimentoParaWebUniOpet\ToDo\ToDo.UnitTests\bin\Debug\netcoreapp2.0\ToDo.UnitTests.pdb
+C:\Users\opet\Documents\GitHub\AulasDesenvolvimentoParaWebUniOpet\ToDo\ToDo.UnitTests\bin\Debug\netcoreapp2.0\TodoMvc.dll
+C:\Users\opet\Documents\GitHub\AulasDesenvolvimentoParaWebUniOpet\ToDo\ToDo.UnitTests\bin\Debug\netcoreapp2.0\TodoMvc.pdb
+C:\Users\opet\Documents\GitHub\AulasDesenvolvimentoParaWebUniOpet\ToDo\ToDo.UnitTests\obj\Debug\netcoreapp2.0\ToDo.UnitTests.csprojResolveAssemblyReference.cache
+C:\Users\opet\Documents\GitHub\AulasDesenvolvimentoParaWebUniOpet\ToDo\ToDo.UnitTests\obj\Debug\netcoreapp2.0\ToDo.UnitTests.csproj.CoreCompileInputs.cache
+C:\Users\opet\Documents\GitHub\AulasDesenvolvimentoParaWebUniOpet\ToDo\ToDo.UnitTests\obj\Debug\netcoreapp2.0\ToDo.UnitTests.AssemblyInfoInputs.cache
+C:\Users\opet\Documents\GitHub\AulasDesenvolvimentoParaWebUniOpet\ToDo\ToDo.UnitTests\obj\Debug\netcoreapp2.0\ToDo.UnitTests.AssemblyInfo.cs
+C:\Users\opet\Documents\GitHub\AulasDesenvolvimentoParaWebUniOpet\ToDo\ToDo.UnitTests\obj\Debug\netcoreapp2.0\ToDo.UnitTests.dll
+C:\Users\opet\Documents\GitHub\AulasDesenvolvimentoParaWebUniOpet\ToDo\ToDo.UnitTests\obj\Debug\netcoreapp2.0\ToDo.UnitTests.pdb
